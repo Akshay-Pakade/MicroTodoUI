@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-ui
       IMAGE_TAG: v4
-      ACR_NAME: containerRegistry1433
-      ACR_LOGIN_SERVER: containerregistry1433.azurecr.io
+      ACR_NAME: containerRegistry14332
+      ACR_LOGIN_SERVER: containerregistry14332.azurecr.io
 
     steps:
       - name: Checkout code
