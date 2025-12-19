@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-ui
       IMAGE_TAG: v4
-      ACR_NAME: containerRegistry14332
-      ACR_LOGIN_SERVER: containerregistry14332.azurecr.io
+      ACR_NAME: devbarobar
+      ACR_LOGIN_SERVER: devbarobar.azurecr.io
 
     steps:
       - name: Checkout code
@@ -24,9 +24,9 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v2.3.0
         with:
-          client-id: 0e8631be-2dea-47f0-a25c-04b251a0c437
-          tenant-id: 387597f4-2c73-443d-93f5-fe6be49ec6c7
-          subscription-id: c4392c89-177c-49fd-abc6-1b1d293e65b7 
+          client-id: bb2a5a61-253e-4590-87fa-cc605d32431a
+          tenant-id: 0c30cc1a-956a-4c45-9571-96bfaa75a9af
+          subscription-id: de1c1815-4f90-412b-9551-d55f0de9407d
 
       - name: Log in to ACR
         run: |
